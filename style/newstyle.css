@@ -1,0 +1,124 @@
+/*Hexagon*/
+.hexagon {
+  width: 100px;
+  height: 55px;
+  background: red;
+  position: relative;
+}
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid red;
+}
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid red;
+}
+.hexagon span{
+  position: relative;
+  text-align: center;
+  display: block;
+  line-height: 55px;
+  color: #000;
+  z-index: 1;
+}
+.hexagon:hover:after,
+.hexagon:hover:before{
+    background: green;
+}
+.hexagon:hover {
+    background: green;
+}
+
+/*Big hexagon*/
+.big-hexagon {
+  width: 100px;
+  height: 55px;
+  background: red;
+  position: relative;
+}
+.big-hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid red;
+}
+.big-hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid red;
+}
+.big-hexagon span{
+  position: relative;
+  text-align: center;
+  display: block;
+  line-height: 55px;
+  color: #000;
+  z-index: 1;
+}
+
+/***********************************************************************************************************/
+#hexagon {
+    font-size: 20px;
+    width: 1em;
+    height: 0.58em;
+    background: #fff;
+    color: #fff;
+    display: block;
+    position: relative;
+}
+
+#hexagon:before {
+    content: "";
+    position: absolute;
+    top: -0.25em;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-color: inherit;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.25em solid
+}
+
+#hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -0.25em;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-color: inherit;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.25em solid;
+}
+
+#hexagon:hover {
+    background-color: #FFC500;
+    color: #FFC500;
+}
