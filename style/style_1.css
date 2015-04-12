@@ -1,6 +1,7 @@
 body{         
     position:absolute;
 	margin: 0px;
+	padding: 0px;
     top:0px;
     bottom:0px;
     left:0px;
@@ -19,4 +20,13 @@ body{
 
 .img-invert{
 	-webkit-filter: invert(100%);
+}
+
+@font-face {
+  font-family: BebasNeueRegular;
+  src: url("font/bebas/TTF/BebasNeue.ttf");
+}
+p {
+  font-family: BebasNeueRegular;
+  font-size: 20px;
 }
