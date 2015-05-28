@@ -1,112 +1,33 @@
-/*body {
-    padding: 100px;
-}*/
-
-.menu-item {
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    position: relative;
-    background: #fff;
-    width: 100px;
-    height: 59px;
+body{         
+    position:absolute;
+	margin: 0px;
+	padding: 0px;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
 }
 
-.menu-item span {
-    position: relative;
-    text-align: center;
-    display: block;
-    line-height: 59px;
-    width: 100px;
-    color: #000;
-    z-index: 1;
-}
-
-.menu-item:after,
-.menu-item:before {
-    content: '';
-    display: block;
-    position: absolute;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    left: -2px;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    -webkit-transform: rotate(-60deg);
-    background: #fff;
-    /*z-index: -1;*/
-}
-
-.menu-item:before {
-    -webkit-transform: rotate(60deg);
-}
-
-.menu-item:hover {
-    background: #000;
-}
-.menu-item:hover:after,
-.menu-item:hover:before {
-    background: #000;
-}
-.menu-item span:hover{
-	color: #fff;
-}
-.menu-item span:hover:after,
-.menu-item span:hover:before{
+.black{
+	background: #000;
 	color: #fff;
 }
 
-.menu-big-item {
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    position: relative;
-    background: #fff;
-    width: 200px;
-    height: 118px;
+.white{
+	background:#fff;
+	color: #000;
 }
 
-.menu-big-item span {
-    position: relative;
-    text-align: center;
-    display: block;
-    line-height: 118px;
-    width: 200px;
-    color: #000;
-    z-index: 1;
+.img-invert{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
-.menu-big-item:after,
-.menu-big-item:before {
-    content: '';
-    display: inline;
-    position: absolute;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    left: -2px;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    -webkit-transform: rotate(-60deg);
-    background: #fff;
-    /*z-index: -1;*/
+@font-face {
+  font-family: BebasNeueRegular;
+  src: url("font/bebas/TTF/BebasNeue.ttf");
 }
-
-.menu-big-item:before {
-    -webkit-transform: rotate(60deg);
-}
-
-.menu-big-item:hover {
-    background: #000;
-}
-.menu-big-item:hover:after,
-.menu-big-item:hover:before {
-    background: #000;
-}
-
-.menu-big-item span:hover{
-	color: #fff;
-}
-.menu-big-item span:hover:after,
-.menu-big-item span:hover:before{
-	color: #fff;
+p {
+  font-family: BebasNeueRegular;
+  font-size: 20px;
 }
