@@ -23,6 +23,18 @@ body{
     filter: invert(100%);
 }
 
+.top {
+    vertical-align: top;
+}
+
+img{
+    margin: 15px;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
 @font-face {
   font-family: BebasNeueRegular;
   src: url("font/bebas/TTF/BebasNeue.ttf");
